@@ -1,0 +1,72 @@
+{
+  "type": "application",
+  "title": "Retry",
+  "version": "1.0.0",
+  "initialRoute": "/",
+  "routes": {
+    "/": "ui://pages/retry"
+  },
+  "theme": {
+    "mode": "dark",
+    "color": {
+      "primary": "#b45309",
+      "onPrimary": "#ffffff",
+      "primaryContainer": "#f7e6cf",
+      "onPrimaryContainer": "#3f1d05",
+      "surface": "#181d24",
+      "onSurface": "#eaeff5",
+      "surfaceContainerHighest": "#0e1319",
+      "onSurfaceVariant": "#8c99a6",
+      "outline": "#242d38",
+      "outlineVariant": "#242d38",
+      "error": "#b3261e",
+      "onError": "#ffffff",
+      "warning": "#e0a33c",
+      "onWarning": "#ffffff",
+      "inverseSurface": "#eaeff5",
+      "inverseOnSurface": "#181d24"
+    },
+    "spacing": {
+      "xxs": 2,
+      "xs": 4,
+      "sm": 8,
+      "md": 16,
+      "lg": 24,
+      "xl": 32,
+      "2xl": 48
+    },
+    "shape": {
+      "none": 0,
+      "extraSmall": 4,
+      "small": 8,
+      "medium": 12,
+      "large": 16,
+      "extraLarge": 28,
+      "full": 999
+    },
+    "fonts": {
+      "JetBrainsMono": {
+        "source": "asset",
+        "family": "JetBrainsMono"
+      }
+    }
+  },
+  "state": {
+    "initial": {
+      "attempts": 0,
+      "accepted": 0,
+      "peak": 0,
+      "peakNote": "",
+      "ok": true,
+      "strategy": "",
+      "rows": [],
+      "compare": "",
+      "notice": ""
+    }
+  },
+  "onInit": {
+    "type": "tool",
+    "tool": "gate.report",
+    "params": {}
+  }
+}

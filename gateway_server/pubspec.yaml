@@ -1,0 +1,13 @@
+name: gateway_server
+description: A payment gateway that is down for a while, and counts who hammered it.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  mcp_server: ^2.1.1
+
+dev_dependencies:
+  lints: ^3.0.0

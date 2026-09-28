@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0.0",
+  "manifest": {
+    "id": "com.makemind.sample.retry_backoff",
+    "name": "Retry",
+    "version": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "type": "application",
+    "entryPoint": "ui.app",
+    "description": "What retrying costs the thing you are retrying against.",
+    "provider": "MakeMind",
+    "license": "MIT",
+    "category": "business",
+    "tags": ["retry", "backoff", "sample"],
+    "publisher": { "name": "makemind.dev", "email": "dev@makemind.dev" }
+  }
+}
